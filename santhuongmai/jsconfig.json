@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "baseUrl": "./src"
+    },
+    "include": ["src/***/*", "src/pages/users/CartPage/Cart.js", "src/pages/CommentPage/CommentPage.js"]
+  }

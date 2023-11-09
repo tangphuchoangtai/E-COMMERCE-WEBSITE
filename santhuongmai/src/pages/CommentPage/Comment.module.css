@@ -1,0 +1,21 @@
+.wrap{
+    display: block;
+}
+
+.thongtinsp{
+    font-size: 30px;
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.button{
+    background-color: wheat;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    outline: none;
+}

@@ -1,0 +1,77 @@
+@use "sass:map";
+@import "style/pages/theme";
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+.product-title {
+    // margin-left: 300px;
+    color: map.get($theme-colors, "title");
+    display: flex;
+    text-align: center;
+    margin-left: 450px;
+    
+}
+
+.form-control {
+    width: 15px;
+    height: 15px;
+}
+
+.btn {
+    margin-top: 5px;
+    height: 40px;
+}
+
+.list-pro {
+    margin-top: 20px;
+}
+
+.items {
+    background-color:black;
+    color: rgb(244, 238, 238);
+}
+
+button {
+    margin-top: 10px;
+}
+
+.detail-container {
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    background: #e8e8e8;
+    margin-left: 300px;
+    margin-top: 500px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border: 1px solid #e8e8e8 ;
+    border-radius: 10px;
+}
+.detail-container .detail-contant {
+    max-width: 100%;
+}
+.detail-container .detail-contant .close {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background-color: none; 
+    cursor: pointer;
+}
+.detail-container .detail-contant .detail-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.img-box-pro {
+    width: 70%;
+    margin-left: 10%;
+}
+.detail-container .detail-contant .detail-info .product-detail {
+    margin-right: 50px;
+}
+.detail-container .detail-contant .detail-info .product-detail h2 {
+    color: map.get($theme-colors, "main");
+}

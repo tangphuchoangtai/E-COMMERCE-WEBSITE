@@ -1,0 +1,12 @@
+@use "sass:map";
+@import "style/pages/theme";
+
+.title {
+    color: map.get($theme-colors, "title");
+    text-align: center;
+}
+
+.form-regis {
+    margin-left: 10px;
+   
+}
